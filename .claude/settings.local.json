@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Braincore/Documents/GitHub/Omniflow-id/src/pages/**)",
+      "Read(//c/Users/Braincore/Documents/GitHub/Omniflow-id/src/components/**)"
+    ]
+  }
+}

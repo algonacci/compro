@@ -1,5 +1,5 @@
 ---
-title: Quarto Example
+title: Omniflow
 author: Eric Julianto
 format:
     revealjs:
@@ -8,533 +8,220 @@ format:
         resources: [logo-white.png]
         slide-number: c/t
         chalkboard:
-            buttons: true
-            theme: whiteboard
+            buttons: false
         transition: slide
         background-transition: fade
-        code-copy: true
-        code-fold: true
-        code-overflow: wrap
-        # scrollable: true
         smaller: false
         incremental: false
         preview-links: auto
         logo: "logo.png"
-        footer: ""
+        footer: "Omniflow · omniflow.id"
         margin: 0.1
         fig-responsive: true
         highlight-style: github
         html-math-method: katex
-bibliography: references.bib
 ---
 
-# Hello World! {#hello-world background-color="#2c3e50"}
-Ini adalah test
+# Omniflow {#cover background-color="#0f172a"}
 
-## Profile / Bio Slide {#profile-slide .smaller}
+![](./images/logo_optimized.png){.logo-mark}
 
-:::: {.columns}
-::: {.column width="30%"}
+<div class="eyebrow">Integrated ERP · Built for Growth</div>
 
-![](./images/profile.jpg){width=200 style="border-radius: 50%; margin-bottom: 15px; display: block; margin-left: auto; margin-right: auto;"}
+<p class="cover-tagline">One Ecosystem.<br>Every Function.<br>One Flow.</p>
 
-<div style="font-size: 0.9em; line-height: 1.8; text-align: center;">
+<p class="lead">Omniflow unifies operations, finance, HR, sales, and analytics into a single modular platform — so decisions are faster, operations are cleaner, and growth is more measurable.</p>
 
-**x.com**/username
-
-**github.com**/username
-
-</div>
-:::
-
-::: {.column width="70%"}
-<div style="padding-left: 30px;">
-
-**Work Experience**
-
-<style>
-.compact-list li { margin-bottom: 0.3em; line-height: 1.2; }
-.compact-list .period { font-size: 0.85em; color: #666; display: block; margin-top: -0.2em; }
-</style>
-
-<div class="compact-list">
-
-- Senior Developer at Tech Corp
-<span class="period">(2023 - Now)</span>
-
-- Software Engineer at StartUp Inc
-<span class="period">(2020 - 2023)</span>
-
+<div class="hero-kpis">
+<div class="metric-card"><span class="metric-value">18+</span><span class="metric-label">Integrated Modules</span></div>
+<div class="metric-card"><span class="metric-value">10,000+</span><span class="metric-label">Active Users</span></div>
+<div class="metric-card"><span class="metric-value">99.9%</span><span class="metric-label">SLA Uptime</span></div>
 </div>
 
-**Education**
+## The Challenge {#problem}
 
-- Computer Science at University Name
+<div class="eyebrow">Problem Landscape</div>
 
-</div>
-:::
-::::
+<p class="lead">Most companies grow faster than their operational systems can keep up — data silos, manual processes, and zero real-time visibility.</p>
 
-## Apa yahhh {#apa-yahhh}
-
-
-![](./images/demo.jpg){fig-align="center" width="300"}
-
-<div style="text-align: center; font-size: 0.8em; color: gray;">
-*Insert meme here*
+<div class="row-list">
+<div class="row-item"><span class="row-num">01</span><div><h3>Data fragmented across tools</h3><p>HR, finance, sales, and operations run on separate apps with no shared data layer.</p></div></div>
+<div class="row-item"><span class="row-num">02</span><div><h3>Manual processes block growth</h3><p>Approvals, reports, and data transfers still depend on spreadsheets and manual follow-ups.</p></div></div>
+<div class="row-item"><span class="row-num">03</span><div><h3>No real-time visibility</h3><p>Leadership reads performance data too late — consolidated only at period-end.</p></div></div>
+<div class="row-item"><span class="row-num">04</span><div><h3>Complexity grows with scale</h3><p>As companies expand, process duplication, software costs, and coordination gaps multiply.</p></div></div>
 </div>
 
-# {#hello-image}
+# One Platform. One Flow. {#divider-flow .divider background-color="#0f172a"}
 
-![](./images/hello-hello-everybody.jpg){width=300 style="margin: 20px auto; display: block;"}
+<div class="eyebrow">Omniflow Approach</div>
 
-## Contoh Tabel {#contoh-tabel}
+<p class="divider-sub">A modular ERP platform that unifies every core business process — from front office to back office.</p>
 
-| Nama      | Umur | Kota      | Pekerjaan     |
-|-----------|------|-----------|---------------|
-| Alice     | 25   | Jakarta   | Developer     |
-| Bob       | 30   | Bandung   | Designer      |
-| Charlie   | 28   | Surabaya  | Data Analyst  |
-| Diana     | 32   | Yogya     | Project Manager |
+## What is Omniflow {#solution}
 
-: Tabel Data Karyawan {#tbl-karyawan}
+<div class="split-layout">
+<div class="split-left">
+<div class="eyebrow">Enterprise ERP Ecosystem</div>
+<h3>One platform to run your business end-to-end</h3>
+<p>Omniflow is an integrated ERP that connects HR, accounting, sales, inventory, procurement, CRM, learning, analytics, and more — all within a single, unified work ecosystem.</p>
+<ul class="check-list">
+<li>Modular — start from what matters most right now</li>
+<li>Integrated — data flows across teams without manual transfers</li>
+<li>Scalable — built to grow with your business</li>
+<li>Visible — critical data available in real time</li>
+</ul>
+</div>
+<div>
+<div class="stack-list">
+<div class="stack-item"><strong>For executives & management</strong>Better control over performance, costs, and growth priorities.</div>
+<div class="stack-item"><strong>For operations teams</strong>Workflows that are consistent, faster, and less error-prone.</div>
+<div class="stack-item"><strong>For data & IT teams</strong>Structured integration and stronger data visibility.</div>
+</div>
+<div class="stat-strip">
+<div class="stat-pill"><strong>90%</strong><span>less complexity</span></div>
+<div class="stat-pill"><strong>3×</strong><span>faster decisions</span></div>
+<div class="stat-pill"><strong>40%</strong><span>cost reduction</span></div>
+<div class="stat-pill"><strong>60%</strong><span>productivity gain</span></div>
+</div>
+</div>
+</div>
 
-## Contoh Flowchart {#contoh-flowchart}
+## Platform Modules {#modules}
+
+<div class="eyebrow">Core Modules</div>
+
+<p class="lead">A comprehensive suite of integrated modules — configurable to fit your transformation priorities.</p>
+
+<div class="module-rows">
+<div class="module-row"><span class="module-tag">HRIS</span><h3>Human Capital</h3><p>Payroll, attendance, performance, leave, and employee records in one workflow.</p></div>
+<div class="module-row"><span class="module-tag">ACC</span><h3>Accounting</h3><p>Invoicing, cashflow, financial reports, and compliance controls — streamlined.</p></div>
+<div class="module-row"><span class="module-tag">XRM</span><h3>XRM & Sales</h3><p>Pipeline management, customer relationships, forecasting, and follow-ups.</p></div>
+<div class="module-row"><span class="module-tag">POS</span><h3>Commerce & POS</h3><p>Run online and physical sales with fully synchronized data.</p></div>
+<div class="module-row"><span class="module-tag">INV</span><h3>Inventory & Assets</h3><p>Multi-location stock, asset lifecycle, maintenance, and warehouse control.</p></div>
+<div class="module-row"><span class="module-tag">PRC</span><h3>Purchasing</h3><p>Vendor control, RFQ, procurement workflow, and purchase cost optimization.</p></div>
+<div class="module-row"><span class="module-tag">LMS</span><h3>Learning Management</h3><p>Internal training and knowledge enablement to accelerate team capability.</p></div>
+<div class="module-row"><span class="module-tag">BI</span><h3>Analytics</h3><p>Centralized dashboards to read cross-functional performance at a glance.</p></div>
+<div class="module-row"><span class="module-tag">API</span><h3>Integration Layer</h3><p>Connect Omniflow to your existing stack via an API-first architecture.</p></div>
+</div>
+
+## Integration & Data Visibility {#integration}
+
+<div class="integration-layout">
+<div class="row-list">
+<div class="row-item"><span class="row-num">A</span><div><h3>Single source of truth</h3><p>Operational, transactional, and performance data — no longer scattered across tools.</p></div></div>
+<div class="row-item"><span class="row-num">B</span><div><h3>Connects with popular platforms</h3><p>Omniflow integrates with the systems your business already relies on.</p></div></div>
+</div>
+<div class="row-list">
+<div class="row-item"><span class="row-num">C</span><div><h3>Actionable dashboards</h3><p>Leadership and operations monitor key indicators — no waiting for manual reports.</p></div></div>
+<div class="row-item"><span class="row-num">D</span><div><h3>Flexible modular architecture</h3><p>Start from the most urgent need, then expand as your business evolves.</p></div></div>
+</div>
+</div>
 
 ```{mermaid}
-flowchart TD
-    A[Start] --> B{Is it working?}
-    B -->|Yes| C[Great!]
-    B -->|No| D[Debug the code]
-    D --> E[Fix the bug]
-    E --> B
-    C --> F[Deploy to production]
-    F --> G[End]
+flowchart LR
+    A[Sales & CRM] --> D[Omniflow Core]
+    B[Finance & Accounting] --> D
+    C[HRIS & Operations] --> D
+    D --> E[Analytics Dashboard]
+    D --> F[Approval Workflow]
+    D --> G[Integration Layer]
+    G --> H[Marketplace / POS / Payment]
+    G --> I[Existing Enterprise Systems]
 
-    style A fill:#e1f5fe
-    style G fill:#c8e6c9
-    style C fill:#fff3e0
-    style D fill:#ffebee
+    style D fill:#1d4ed8,color:#ffffff,stroke:#1e3a8a
+    style E fill:#dbeafe,stroke:#60a5fa
+    style F fill:#e0e7ff,stroke:#818cf8
+    style G fill:#eff6ff,stroke:#3b82f6
 ```
 
-## Contoh PlantUML {#contoh-plantuml}
+# Measurable Business Impact {#divider-impact .divider background-color="#0f172a"}
 
+<div class="eyebrow">Business Outcomes</div>
 
-![](./images/system_architecture.png){fig-align="center" width=40%}
+<p class="divider-sub">Omniflow doesn't just digitize your processes — it transforms how your company works.</p>
 
-<div style="text-align: center; font-size: 0.8em; color: gray;">
-*Enterprise Architecture Diagram*
+## Why Omniflow {#benefits}
+
+<div class="eyebrow">Why Omniflow</div>
+
+<p class="lead">Built for companies that want to grow without adding system complexity.</p>
+
+<div class="stat-rows">
+<div class="stat-row"><span class="stat-big">90%</span><div class="stat-row-text"><h3>All-in-One Solution</h3><p>All core processes run in one connected system — no disconnected tools.</p></div></div>
+<div class="stat-row"><span class="stat-big">3×</span><div class="stat-row-text"><h3>Real-time Analytics</h3><p>Business insights immediately available to help management move with precision.</p></div></div>
+<div class="stat-row"><span class="stat-big">100K+</span><div class="stat-row-text"><h3>Scalable Architecture</h3><p>Built to grow with your business — no forced migrations as you scale.</p></div></div>
+<div class="stat-row"><span class="stat-big">40%</span><div class="stat-row-text"><h3>Cost Efficiency</h3><p>Cut complexity costs, duplicate licenses, and unnecessary overhead.</p></div></div>
+<div class="stat-row"><span class="stat-big">60%</span><div class="stat-row-text"><h3>Productivity Gains</h3><p>Teams focus on value-adding work — not manual data entry and reconciliation.</p></div></div>
+<div class="stat-row"><span class="stat-big">ISO</span><div class="stat-row-text"><h3>Enterprise-Grade Security</h3><p>Your business data protected under ISO 27001 enterprise-grade security standards.</p></div></div>
 </div>
 
-## LSTM Math {#lstm-math .smaller}
+## Implementation Journey {#implementation}
 
-LSTM gating mechanism:
+<div class="eyebrow">Delivery Model</div>
 
-$$f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)$$ {#eq-forget}
-$$i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)$$ {#eq-input}
-$$C_t = f_t * C_{t-1} + i_t * \tilde{C}_t$$ {#eq-cell}
-$$h_t = o_t * \tanh(C_t)$$ {#eq-hidden}
+<p class="lead">Realistic implementation — starting from priority needs, aligned to your processes, then grown incrementally.</p>
 
-Cross-ref: @eq-forget (forget), @eq-cell (update)
-
-## LaTeX Equations {#latex-equations}
-
-::: columns
-::: {.column width="40%"}
-``` tex
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-:::
-
-::: {.column width="60%"}
-```{=tex}
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-```
-```{=tex}
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-:::
-:::
-
-::: footer
-Learn more: [LaTeX Equations](https://quarto.org/docs/authoring/markdown-basics.html#equations)
-:::
-
-## Code Example {#code-example .smaller}
-
-```python
-import torch
-import torch.nn as nn
-
-class LSTM(nn.Module):
-    def __init__(self, input_size, hidden_size):
-        super(LSTM, self).__init__()
-        self.hidden_size = hidden_size
-
-        # Gates: forget, input, output
-        self.W_f = nn.Linear(input_size + hidden_size, hidden_size)
-        self.W_i = nn.Linear(input_size + hidden_size, hidden_size)
-        self.W_o = nn.Linear(input_size + hidden_size, hidden_size)
-        self.W_C = nn.Linear(input_size + hidden_size, hidden_size)
-
-    def forward(self, x, h_prev, C_prev):
-        combined = torch.cat([x, h_prev], dim=1)
-
-        f_t = torch.sigmoid(self.W_f(combined))  # Forget gate
-        i_t = torch.sigmoid(self.W_i(combined))  # Input gate
-        C_tilde = torch.tanh(self.W_C(combined)) # Candidate
-        C_t = f_t * C_prev + i_t * C_tilde      # Cell state
-
-        o_t = torch.sigmoid(self.W_o(combined))  # Output gate
-        h_t = o_t * torch.tanh(C_t)              # Hidden state
-
-        return h_t, C_t
-```
-
-## Code Highlighting {#code-highlighting .smaller}
-
-```javascript
-// Async/await with error handling
-async function fetchUserData(userId) {
-    try {
-        const response = await fetch(`/api/users/${userId}`);
-
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-        }
-
-        const userData = await response.json();
-        return userData;
-    } catch (error) {
-        console.error('Failed to fetch user:', error);
-        return null;
-    }
-}
-```
-<br />
-```rust
-// Pattern matching & Option handling
-fn process_config(config: Option<Config>) -> Result<String, ConfigError> {
-    match config {
-        Some(cfg) if cfg.is_valid() => {
-            println!("Processing config: {}", cfg.name);
-            Ok(format!("Config {} loaded", cfg.name))
-        },
-        Some(_) => Err(ConfigError::Invalid),
-        None => Err(ConfigError::Missing),
-    }
-}
-```
-
-# Advanced Layouts {#advanced-layouts}
-Variasi Layout
-
-## Two Columns: Text & Text {#col-text-text}
-
-::::: {.columns}
-
-:::: {.column width="50%"}
-### Left Side
-
-- Feature A
-- Feature B
-- Feature C
-
-Detailed explanation of the left side content.
-::::
-
-:::: {.column width="50%"}
-### Right Side
-
-- Benefit X
-- Benefit Y
-- Benefit Z
-
-Comparison or additional details on the right side.
-::::
-
-:::::
-
-## Two Columns: Text & Image {#col-text-image}
-
-::::: {.columns}
-
-:::: {.column width="50%"}
-### Context
-
-Here is the description of the system architecture shown on the right.
-
-- Modular design
-- Scalable components
-- Secure data flow
-::::
-
-:::: {.column width="50%"}
-![](./images/tau-apa-tentang-sql-agent.png){fig-align="center" width="100%"}
-
-<div style="text-align: center; font-size: 0.6em; color: gray;">
-*Figure 1: System Architecture*
-</div>
-::::
-
-:::::
-
-## Two Columns: Image & Text {#col-image-text}
-
-::::: {.columns}
-
-:::: {.column width="50%"}
-![](./images/demo.jpg){fig-align="center" width="100%"}
-
-<div style="text-align: center; font-size: 0.6em; color: gray;">
-*Meme Illustration*
-</div>
-::::
-
-:::: {.column width="50%"}
-### The Visuals
-
-The image on the left demonstrates the visual impact of the project.
-
-1.  **High engagement**
-2.  **Viral potential**
-3.  **Clear messaging**
-::::
-
-:::::
-
-## Image with Centered Caption {#centered-caption}
-
-![](./images/system_architecture.png){fig-align="center" width="60%"}
-
-<div style="text-align: center; font-size: 0.8em; color: gray;">
-*Figure 1: System Architecture Diagram showing the interaction between components*
+<div class="steps">
+<div class="step"><div class="step-num">01</div><h3>Discovery & Process Mapping</h3><p>Understand current workflows, key bottlenecks, business goals, and highest-impact improvement areas.</p></div>
+<div class="step"><div class="step-num">02</div><h3>Solution Design</h3><p>Define priority modules, integration requirements, data architecture, and a realistic scope.</p></div>
+<div class="step"><div class="step-num">03</div><h3>Setup, Migration & Integration</h3><p>Configure the system, migrate critical data, and connect with your existing infrastructure.</p></div>
+<div class="step"><div class="step-num">04</div><h3>Training & Go-Live Support</h3><p>Train key users, ensure strong adoption, and provide hands-on support through launch.</p></div>
 </div>
 
-## Callouts & Alerts {#callouts}
+```{mermaid}
+flowchart LR
+    A[Discovery] --> B[Blueprint]
+    B --> C[Configuration]
+    C --> D[Migration & Integration]
+    D --> E[Training]
+    E --> F[Go Live]
+    F --> G[Optimization]
 
-::: {.callout-note}
-### Note
-This is a standard note callout. Good for general information.
-:::
+    style A fill:#dbeafe,stroke:#60a5fa
+    style B fill:#e0e7ff,stroke:#818cf8
+    style C fill:#eff6ff,stroke:#3b82f6
+    style D fill:#dbeafe,stroke:#60a5fa
+    style E fill:#e0e7ff,stroke:#818cf8
+    style F fill:#1d4ed8,color:#ffffff,stroke:#1e3a8a
+    style G fill:#0f172a,color:#ffffff,stroke:#1e293b
+```
 
-::: {.callout-important}
-### Important
-This information is crucial and should not be ignored.
-:::
+## Frequently Asked Questions {#faq}
+
+<div class="faq-list">
+<div class="faq-item"><h3>How is Omniflow different from other ERPs?</h3><p>Omniflow combines comprehensive modules, powerful integration, and a modern enterprise UX — all in one cohesive platform.</p></div>
+<div class="faq-item"><h3>How long does implementation take?</h3><p>Core implementation can begin within weeks. Enterprise scope is structured in phases aligned to your business priorities and integration complexity.</p></div>
+<div class="faq-item"><h3>Can it be tailored for different industries?</h3><p>Yes. The modular approach supports manufacturing, retail, distribution, F&B, education, healthcare, and more.</p></div>
+<div class="faq-item"><h3>What about security and support?</h3><p>Enterprise-grade security controls, 99.9% uptime SLA, and dedicated support through implementation and beyond.</p></div>
+</div>
+
+# Let's Build Your Unified Operations {#divider-contact .divider background-color="#0f172a"}
+
+<div class="eyebrow">Next Step</div>
+
+<p class="divider-sub">From fragmented processes — to an integrated, scalable work system.</p>
+
+## Get in Touch {#contact}
+
+<div class="contact-list">
+<div class="contact-item"><div class="c-label">Mail</div><h3>Email</h3><p><strong>contact@omniflow.id</strong></p><p>Reach out for a demo, consultation, or to discuss your enterprise needs.</p></div>
+<div class="contact-item"><div class="c-label">Call</div><h3>Phone</h3><p><strong>+62 821 2560 9413</strong></p><p>Our team is available on business days for enterprise inquiries.</p></div>
+<div class="contact-item"><div class="c-label">Visit</div><h3>Office</h3><p><strong>PT. Algonacci Sobat Nusantara</strong></p><p>Jl. Letjen S. Parman No. 28, Grogol Petamburan, Jakarta Barat 11470.</p></div>
+</div>
 
 ::: {.callout-tip}
-### Tip
-Pro tip: Use callouts to highlight key takeaways!
+### Recommended First Step
+Start with a focused discovery workshop — map your processes, identify priority modules, and set your first 90-day implementation goals.
 :::
 
-## Fragments (Animations) {#fragments}
+## {#qa}
 
-Items will appear one by one:
+<div class="qa-slide">
 
-::: {.incremental}
-- First item appears
-- Then the second item
-- Finally the third item
-:::
+![](./images/any-question.png){width=220 style="border:none;box-shadow:none;background:transparent;"}
 
-. . .
+### Thank you for your time.
 
-**Pause!** This text appears after a click.
-
-## Tabsets for Code {#tabsets}
-
-::: {.panel-tabset}
-
-### Python
-
-```python
-def hello():
-    print("Hello World")
-```
-
-### TypeScript
-
-```typescript
-const hello = (): void => {
-    console.log("Hello World");
-}
-```
-
-### Rust
-
-```rust
-fn main() {
-    println!("Hello World");
-}
-```
-
-:::
-
-# Full Scale Image {#full-scale-image}
-
-![](./images/logo_optimized.png){width=300 style="margin: 20px auto; display: block;"}
-
-## Custom CSS In-Slide {#custom-css}
-
-<style>
-.custom-box {
-    border: 2px dashed #4287f5;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f0f7ff;
-    text-align: center;
-}
-</style>
-
-<div class="custom-box">
-  <h3>Custom Styled Box</h3>
-  <p>This box is styled using inline CSS just for this slide.</p>
-</div>
-
-# Advanced Features {#advanced-features}
-
-
-
-## Interactive Charts (OJS) {#ojs-charts}
-
-Great for Tech Leads pitching data!
-
-```{ojs}
-data = [
-  { name: "Q1", value: 100 },
-  { name: "Q2", value: 150 },
-  { name: "Q3", value: 130 },
-  { name: "Q4", value: 200 }
-]
-
-Plot.plot({
-  marks: [
-    Plot.barY(data, {x: "name", y: "value", fill: "steelblue"}),
-    Plot.text(data, {x: "name", y: "value", text: "value", dy: -10}),
-    Plot.ruleY([0])
-  ]
-})
-```
-
-
-## {auto-animate="true" #report-setup}
-
-```python
-def generate_report(data):
-    # Setup report configuration
-    config = {
-        "title": "Monthly Report",
-        "timestamp": "2024-03-20"
-    }
-
-    return config
-```
-
-## {auto-animate="true" #report-full}
-
-```python
-def generate_report(data):
-    # Setup report configuration
-    config = {
-        "title": "Monthly Report",
-        "timestamp": "2024-03-20"
-    }
-
-    # Calculate summary statistics
-    config["total"] = sum(data)
-    config["average"] = sum(data) / len(data)
-    config["status"] = "Published"
-
-    return config
-```
-
-## Slide Backgrounds {#slide-backgrounds background-image="./images/demo.jpg" background-opacity=0.2}
-
-You can set full-screen background images.
-
-- Good for cover slides
-- Separation sections
-- Emotional impact
-
-## Absolute Position {#absolute-position}
-
-Position elements precisely where you want them.
-
-![](./images/demo.jpg){.absolute top="100" left="0" width="100" height="auto"}
-
-![](./images/any-question.png){.absolute top="200" right="50" width="150" height="auto"}
-
-![](./images/tau-apa-tentang-sql-agent.png){.absolute bottom="0" left="300" width="200" height="auto"}
-
-## Stack Layout (Overlays) {#stack-layout}
-
-::: r-stack
-![](./images/demo.jpg){.fragment width="400" height="400"}
-![](./images/any-question.png){.fragment width="300" height="300"}
-![](./images/tau-apa-tentang-sql-agent.png){.fragment width="200" height="200"}
-:::
-
-**Images are stacked on top of each other!**
-
-## Advanced Fragments {#advanced-fragments}
-
-Animate text elements with different effects:
-
-::: {.fragment .fade-up}
-This text slides up while fading in.
-:::
-
-::: {.fragment .highlight-red}
-This text turns red when focused.
-:::
-
-::: {.fragment .strike}
-This text gets crossed out.
-:::
-
-::: {.fragment .fade-in-then-semi-out}
-This text fades in, then fades out partially.
-:::
-
-## Academic Citations {#citations}
-
-"Attention is all you need" paper [@vaswani2017attention] changed the AI landscape.
-Also, clean code is important [@cleanarchitecture].
-
-::: {.aside}
-This is an aside / footnote for extra context.
-:::
-
-## References {#references}
-
-::: {#refs}
-:::
-
-<div style="text-align: center;">
-
-## Q&A {#qa}
-
-![](./images/any-question.png){width=300 style="margin: 20px auto; display: block;"}
-
-### Thank you for listening!
+<p class="lead">We'd love to show you what Omniflow can do for your business.</p>
 
 </div>
