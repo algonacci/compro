@@ -4,8 +4,8 @@ subtitle: "Indonesia's Next AI-Native ERP"
 author: ""
 format:
     revealjs:
-        theme: white
-        css: custom.css
+        theme: simple
+        css: compro-style.css
         resources: [logo-white.png]
         slide-number: c/t
         chalkboard:
