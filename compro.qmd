@@ -76,116 +76,143 @@ Kesenjangan teknologi ini menciptakan konsekuensi serius:
 
 # Solution {#section-solution}
 
-## Omniflow: ERP untuk Semua {#solution-intro .full-width .smaller}
+## Omniflow — ERP untuk Semua {#solution-intro .smaller}
 
 Omniflow hadir sebagai jawaban atas kesenjangan yang selama ini ada di pasar:
 
-- **Terjangkau** — harga berlangganan bulanan, tanpa biaya implementasi besar
-- **AI-Native** — otomatisasi cerdas bawaan, bukan fitur tambahan
-- **Mudah dipakai** — antarmuka intuitif, siap digunakan dalam hitungan jam
-- **Modular** — mulai dari modul yang dibutuhkan, tambah sesuai pertumbuhan bisnis
-- **Cloud-based** — akses dari mana saja, tanpa infrastruktur server sendiri
+- **Terjangkau** — tanpa biaya setup, berlangganan bulanan, uji coba gratis 30 hari
+- **AI-Native** — otomatisasi cerdas bawaan di setiap modul, bukan fitur tambahan
+- **Mudah dipakai** — antarmuka intuitif, setup 2–4 minggu untuk bisnis kecil
+- **Modular** — 18 modul terintegrasi, mulai dari yang dibutuhkan, tambah sesuai pertumbuhan
+- **Cloud-based** — akses web, iOS, dan Android, uptime SLA 99.9%
 
 <div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
-<strong>Misi Omniflow:</strong> Membawa kekuatan ERP enterprise ke tangan setiap UMKM Indonesia.
+<strong>Misi Omniflow:</strong> Solusi ERP terintegrasi untuk transformasi bisnis — dipercaya 10.000+ bisnis.
 </div>
 
 ## How It Works {#solution-how .full-width .smaller}
 
-Tiga langkah untuk mulai menggunakan Omniflow:
-
-- **1. Daftar & Pilih Modul** — pilih modul sesuai kebutuhan bisnis, tanpa harus beli semua
-- **2. Import Data** — migrasikan data dari spreadsheet atau sistem lama dengan mudah
-- **3. Jalankan Bisnis** — pantau operasional, laporan otomatis, dan keputusan berbasis data
+1. **Daftar & Pilih Modul** — pilih modul sesuai kebutuhan bisnis
+2. **Import & Setup** — onboarding dan konfigurasi sistem dalam 2–4 minggu
+3. **Jalankan Bisnis** — pantau operasional dan ambil keputusan berbasis data
 
 # Key Features {#section-features}
 
-## Core Modules {#features-modules .full-width .smaller}
+## 18 Modul Terintegrasi (1/3) {#features-modules .full-width .smaller}
 
-Omniflow menyediakan modul-modul inti yang saling terintegrasi:
+- **HRIS** — rekrutmen, absensi, payroll, manajemen kinerja
+- **Akuntansi** — buku besar, invoicing, laporan keuangan, multi-mata uang
+- **Point of Sale** — kasir offline/online, stok real-time, multi-toko
+- **E-Commerce** — toko online terintegrasi, manajemen pesanan dan pembayaran
+- **Inventori** — multi-lokasi, tracking real-time, optimasi gudang
+- **Sales Management** — pipeline visual, deal tracking, revenue forecasting
 
-- **Keuangan & Akuntansi** — pembukuan otomatis, laporan laba rugi, arus kas real-time
-- **Inventori & Gudang** — stok real-time, peringatan stok minimum, manajemen multi-gudang
-- **Penjualan & CRM** — pipeline penjualan, manajemen pelanggan, invoice otomatis
-- **Pembelian** — purchase order, manajemen supplier, persetujuan digital
-- **HR & Penggajian** — absensi, slip gaji otomatis, manajemen karyawan
+## 18 Modul Terintegrasi (2/3) {#features-modules-2 .full-width .smaller}
 
-## AI-Powered Capabilities {#features-ai .full-width .smaller}
+- **Purchasing** — purchase order, manajemen vendor, RFQ otomatis
+- **Payment Gateway** — Midtrans, Virtual Account, QRIS, e-wallet
+- **XRM** — manajemen relasi klien, RBAC, 2FA, Redis caching
+- **LMS** — manajemen pembelajaran dan pelatihan karyawan
+- **Telemarketing** — auto-dialer, TTS audio, kampanye outbound
+- **Analytics** — terintegrasi BCA, OrderOnline, Majoo, Moka
 
-Omniflow bukan sekadar ERP biasa — AI tertanam di setiap modul:
+## 18 Modul Terintegrasi (3/3) {#features-modules-3 .full-width .smaller}
 
-- **Prediksi Permintaan** — forecast penjualan berdasarkan data historis dan tren pasar
-- **Deteksi Anomali** — peringatan otomatis jika ada transaksi atau pola yang mencurigakan
-- **Laporan Otomatis** — ringkasan bisnis harian/mingguan dikirim langsung ke email
-- **Rekomendasi Stok** — saran reorder point berdasarkan kecepatan penjualan
-- **Chat Assistant** — tanya kondisi bisnis dalam bahasa natural, jawab dalam detik
+- **Asset Management** — pelacakan aset, depresiasi, maintenance scheduling
+- **URLs** — URL shortener, QR code, domain kustom, analitik klik
+- **Bizzcard** — kartu nama digital, NFC sharing, vCard export
+- **Manufaktur** — BOM, work order, production planning, quality control
+- **Supply Chain** — manajemen rantai pasok end-to-end, multi-supplier
+- **DMS** — document management, versioning, approval workflow
+
+## AI & Technology {#features-ai .full-width .smaller}
+
+Omniflow dibangun dengan teknologi modern dan AI sejak awal:
+
+- **AI-Powered** — otomatisasi cerdas, prediksi, dan analitik di setiap modul
+- **Redis Caching** — performa tinggi, respons sub-milidetik
+- **Job Queue (RabbitMQ)** — pemrosesan job asinkron, circuit breaker pattern
+- **Mobile Native** — aplikasi Flutter untuk iOS dan Android
+- **50+ Integrasi** — Odoo, SAP, Salesforce, Shopify, WooCommerce, dan lainnya
+- **Zapier** — terhubung ke 5.000+ aplikasi pihak ketiga
+- **API-First** — RESTful API untuk integrasi kustom dengan sistem apapun
 
 # Benefits {#section-benefits}
 
-## Dampak Nyata untuk Bisnis Anda {#benefits-impact .full-width .smaller}
+## Dampak Terukur {#benefits-impact .full-width .smaller}
 
-Dengan Omniflow, UMKM merasakan perubahan nyata sejak hari pertama:
+Angka nyata dari pengguna Omniflow:
 
-- **Hemat waktu** — kurangi 80% pekerjaan administratif manual
-- **Keputusan lebih cepat** — data real-time, bukan laporan akhir bulan yang sudah basi
-- **Kurangi human error** — otomatisasi menggantikan proses manual yang rawan salah
-- **Skalabilitas** — sistem tumbuh bersama bisnis, tanpa perlu ganti platform
-- **Visibilitas penuh** — lihat seluruh operasional bisnis dalam satu dashboard
+- **90%** pengurangan kompleksitas software — satu platform, bukan banyak sistem
+- **3x** lebih cepat dalam pengambilan keputusan dengan analitik real-time
+- **60%** peningkatan produktivitas lewat otomatisasi tugas rutin
+- **40%** pengurangan biaya operasional rata-rata
+- **15 jam/minggu** dihemat dari otomatisasi administrasi HR
+- **35%** penghematan biaya operasional HR
 
-## Return on Investment {#benefits-roi .full-width .smaller}
+## Keunggulan Platform {#benefits-platform .full-width .smaller}
 
-Investasi di Omniflow memberikan hasil yang terukur:
+Yang membuat Omniflow berbeda dari solusi lain:
 
-- Rata-rata penghematan **15–20 jam/minggu** dari otomatisasi administrasi
-- Pengurangan **stok mati hingga 30%** berkat prediksi permintaan AI
-- Peningkatan **collection rate piutang** dengan reminder invoice otomatis
-- **Break-even dalam 3 bulan** untuk bisnis dengan 5+ karyawan
+- **All-in-One** — integrasikan semua proses bisnis dalam satu platform
+- **Skalabel** — mendukung 100K+ pengguna, tumbuh bersama bisnis Anda
+- **Aman** — ISO 27001 certified, enkripsi enterprise, multi-factor authentication
+- **Andal** — uptime SLA 99.9%, infrastruktur redundan
+- **Dukungan 24/7** — bantuan teknis, manajer akun khusus, pelatihan tersertifikasi
+- **Multi-bahasa** — Indonesia, Inggris, dan Mandarin
 
 <div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
-<strong>Bottom line:</strong> Omniflow bukan biaya — ini investasi yang bayar balik dirinya sendiri.
+<strong>Free trial 30 hari</strong> — tanpa biaya setup, tanpa komitmen.
 </div>
 
 # Use Cases {#section-use-cases}
 
-## Siapa yang Cocok Pakai Omniflow? {#use-cases-who .full-width .smaller}
+## Industri yang Dilayani {#use-cases-industry .full-width .smaller}
 
-Omniflow dirancang untuk berbagai jenis usaha:
+- **Manufaktur** — BOM, produksi, quality control, supply chain
+- **Retail & E-Commerce** — PoS multi-toko, inventori, integrasi marketplace
+- **F&B & Kuliner** — manajemen bahan baku, resep, kasir offline
+- **Distribusi & Trading** — purchase order, multi-gudang, manajemen vendor
+- **Jasa & Konsultan** — CRM, manajemen proyek, invoicing klien
+- **Pendidikan** — LMS, manajemen peserta, tracking progres
+- **Rumah Sakit & Healthcare** — rekam medis, billing, manajemen staf
+- **Supply Chain & Logistik** — pengiriman, tracking, manajemen armada
+- **Properti & Konstruksi** — manajemen proyek, aset, dan kontrak
 
-- **Retail & Toko** — kelola stok, kasir, dan laporan penjualan dalam satu platform
-- **F&B & Kuliner** — manajemen bahan baku, resep, dan biaya produksi
-- **Distributor & Trading** — purchase order, multi-gudang, dan margin per produk
-- **Jasa & Konsultan** — manajemen proyek, timesheet, dan invoicing klien
-- **Manufaktur Kecil** — bill of materials, produksi, dan quality control
+## Skala Bisnis {#use-cases-scale .full-width .smaller}
 
-## Skala Bisnis yang Dilayani {#use-cases-scale .full-width .smaller}
+Omniflow dirancang untuk semua ukuran perusahaan:
 
-Omniflow fleksibel untuk berbagai skala usaha:
-
-- **Usaha Mikro (1–5 karyawan)** — paket starter ringan, setup dalam 1 jam
-- **Usaha Kecil (5–50 karyawan)** — modul lengkap, multi-user, laporan manajemen
-- **Usaha Menengah (50–200 karyawan)** — custom workflow, integrasi API, dedicated support
+- **1–10 karyawan** — modul starter, setup cepat, harga terjangkau
+- **11–50 karyawan** — modul lengkap, multi-user, laporan manajemen
+- **51–200 karyawan** — workflow kustom, integrasi lanjutan, dedicated support
+- **201–1000+ karyawan** — solusi enterprise, SLA khusus, implementasi penuh
 
 # Technology {#section-technology}
 
-## Technology Stack {#technology-stack .full-width .smaller}
+## Tech Stack & Infrastruktur {#technology-stack .full-width .smaller}
 
-Omniflow dibangun di atas teknologi modern yang andal dan aman:
+Omniflow dibangun di atas teknologi modern yang andal:
 
-- **Cloud Infrastructure** — hosted di AWS/GCP dengan uptime 99.9% SLA
-- **AI/ML Engine** — model prediksi dilatih dengan data UMKM Indonesia
-- **Real-time Sync** — data sinkron di semua perangkat tanpa delay
-- **Bank-grade Security** — enkripsi AES-256, SSL/TLS, dan audit log lengkap
-- **Open API** — integrasi dengan marketplace, payment gateway, dan tools favorit Anda
+- **Cloud Infrastructure** — uptime SLA 99.9%, infrastruktur redundan
+- **Arsitektur** — microservices dengan Redis caching dan RabbitMQ job queue
+- **Mobile** — native app Flutter untuk iOS dan Android
+- **Security** — ISO 27001, enkripsi AES-256, MFA, audit trail lengkap
+- **Compliance** — GDPR, ISO 27001, PCI DSS
+- **API** — RESTful API, pendekatan API-first untuk integrasi mulus
 
-## Integrations {#technology-integrations .full-width .smaller}
+## 50+ Integrasi Siap Pakai {#technology-integrations .full-width .smaller}
 
-Omniflow terhubung dengan ekosistem bisnis digital Indonesia:
+Omniflow terhubung dengan ekosistem bisnis global dan lokal:
 
-- **Marketplace** — Tokopedia, Shopee, Lazada — stok & order tersinkron otomatis
-- **Payment** — Midtrans, Xendit, QRIS — rekonsiliasi pembayaran otomatis
-- **Logistik** — JNE, J&T, SiCepat — tracking pengiriman langsung di dashboard
-- **Perpajakan** — integrasi e-Faktur dan pelaporan SPT lebih mudah
-- **Akuntansi** — export ke format yang kompatibel dengan laporan keuangan standar
+- **ERP** — Odoo, SAP
+- **CRM** — Salesforce
+- **E-Commerce** — Shopify, WooCommerce, Magento
+- **Akuntansi** — Microsoft Dynamics, QuickBooks, Xero
+- **Pembayaran** — Midtrans (VA, QRIS, Kartu Kredit, E-Wallet)
+- **Analitik Lokal** — BCA, OrderOnline, Majoo, Moka
+- **Kolaborasi** — Slack, Zoom
+- **Otomasi** — Zapier (terhubung ke 5.000+ aplikasi)
 
 # Competitive Advantage {#section-competitive}
 
@@ -193,85 +220,83 @@ Omniflow terhubung dengan ekosistem bisnis digital Indonesia:
 
 |  | **Omniflow** | ERP Enterprise | Spreadsheet |
 |--|:--:|:--:|:--:|
-| Harga | Terjangkau | Sangat Mahal | Gratis |
-| Setup | Jam | Bulan | Menit |
+| Setup | 2–4 minggu | 2–3 bulan | Menit |
+| Modul | 18 terintegrasi | Terbatas | Tidak ada |
 | AI Built-in | Ya | Jarang | Tidak |
-| Bahasa Indonesia | Ya | Jarang | Ya |
-| Cocok untuk UMKM | Ya | Tidak | Terbatas |
-| Skalabilitas | Tinggi | Tinggi | Rendah |
-| Dukungan Lokal | Ya | Tidak | Tidak |
+| ISO 27001 | Ya | Ya | Tidak |
+| Multi-bahasa | ID / EN / ZH | Jarang | Terbatas |
+| Mobile App | iOS & Android | Jarang | Tidak |
+| 50+ Integrasi | Ya | Sebagian | Tidak |
 
 ## Keunggulan Kompetitif {#competitive-advantages .full-width .smaller}
 
 Yang membuat Omniflow berbeda dari semua alternatif:
 
-- **Lokal & kontekstual** — dirancang khusus untuk regulasi, bahasa, dan kebiasaan bisnis Indonesia
-- **AI sejak awal** — bukan fitur tambahan, AI tertanam di seluruh alur kerja
-- **Harga transparan** — tidak ada biaya tersembunyi, implementasi, atau lisensi per modul
-- **Onboarding cepat** — tim onboarding lokal siap bantu setup dari hari pertama
-- **Komunitas UMKM** — ekosistem pengguna yang saling berbagi praktik terbaik
+- **Lokal & kontekstual** — dirancang untuk regulasi dan kebiasaan bisnis Indonesia
+- **18 modul dalam satu platform** — 90% pengurangan kompleksitas software
+- **AI sejak awal** — bukan fitur tambahan, tertanam di seluruh alur kerja
+- **Implementasi cepat** — 2–4 minggu untuk bisnis kecil, bukan berbulan-bulan
+- **Dukungan 24/7** — tim ahli bersertifikat siap membantu kapanpun
 
 # Roadmap {#section-roadmap}
 
-## What's Coming {#roadmap-plan .full-width .smaller}
+## Roadmap: Tersedia Sekarang {#roadmap-now .full-width .smaller}
 
-Omniflow terus berkembang bersama kebutuhan UMKM Indonesia:
+Fitur dan modul yang sudah dapat digunakan hari ini:
 
-**2025 — Foundation**
+- 18 modul terintegrasi (HRIS, Akuntansi, PoS, E-Commerce, dan lainnya)
+- 50+ integrasi platform global dan lokal
+- Mobile app iOS & Android, multi-bahasa (ID/EN/ZH)
 
-- Modul inti: Keuangan, Inventori, Penjualan, Pembelian, HR
-- Integrasi marketplace & payment gateway
-- Mobile app (Android & iOS)
+## Roadmap: Segera Hadir {#roadmap-soon .full-width .smaller}
 
-**2026 — Intelligence**
+Fitur yang sedang dalam pengembangan aktif:
 
-- AI demand forecasting yang lebih akurat
-- Laporan pajak otomatis (SPT, e-Faktur)
-- Fitur multi-cabang dan konsolidasi
+- Modul Manufaktur & Supply Chain yang lebih canggih
+- AI demand forecasting yang lebih presisi
+- Ekspansi integrasi marketplace Indonesia (Tokopedia, Shopee)
 
-**2027 — Ecosystem**
+## Roadmap: Visi Jangka Panjang {#roadmap-vision .full-width .smaller}
+
+Arah strategis Omniflow ke depan:
 
 - Marketplace modul pihak ketiga
-- Omniflow untuk koperasi & komunitas UMKM
 - Ekspansi ke pasar Asia Tenggara
+- Ekosistem bisnis digital terintegrasi untuk UMKM Indonesia
 
 # Pricing {#section-pricing}
 
 ## Plans & Pricing {#pricing-plans .full-width .smaller}
 
-Mulai dari yang Anda butuhkan, bayar sesuai pemakaian:
+Harga transparan, tanpa biaya tersembunyi:
 
-| Fitur | **Starter** | **Growth** | **Scale** |
+| Fitur | **Starter** | **Growth** | **Enterprise** |
 |--|:--:|:--:|:--:|
-| Harga/bulan | Rp 299K | Rp 799K | Custom |
-| Pengguna | 3 | 15 | Unlimited |
-| Modul | 2 | Semua | Semua + Custom |
-| AI Features | Dasar | Penuh | Penuh + Priority |
-| Support | Email | Chat & Email | Dedicated |
+| Karyawan | 1–10 | 11–50 | 51–1000+ |
+| Modul | Pilihan dasar | Semua modul | Semua + Custom |
+| Mobile App | Ya | Ya | Ya |
+| Integrasi | Standar | 50+ | Custom API |
+| Support | Email | 24/7 Chat | Dedicated Manager |
 | Onboarding | Self-serve | Guided | White-glove |
+| Implementasi | Mandiri | 2–4 minggu | 2–3 bulan |
 
 <div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
-<strong>Coba gratis 14 hari</strong> — tanpa kartu kredit, tanpa komitmen.
+<strong>Uji coba gratis 30 hari</strong> — tanpa biaya setup, tanpa kartu kredit.
 </div>
 
 # Contact {#section-contact}
 
 ## Mulai Sekarang {#contact-cta .full-width .smaller}
 
-Siap membawa bisnis Anda ke level berikutnya?
+- **Demo gratis** — lihat Omniflow bekerja untuk bisnis Anda
+- **Konsultasi** — kami bantu rancang solusi yang tepat
+- **Trial 30 hari** — tanpa risiko, tanpa biaya setup
 
-- **Demo gratis** — lihat Omniflow bekerja untuk bisnis Anda, 30 menit saja
-- **Konsultasi** — ceritakan kebutuhan Anda, kami bantu rancang solusinya
-- **Trial 14 hari** — coba semua fitur tanpa risiko
-
-<br>
-
-**Hubungi kami:**
+## Hubungi Kami {#contact-info .full-width .smaller}
 
 - Website: [omniflow.id](https://omniflow.id)
-- Email: hello@omniflow.id
-- WhatsApp: +62 812-xxxx-xxxx
+- Email: contact@omniflow.id
+- Telepon: +62 821 2560 9413
+- Alamat: Jl. Letjen S. Parman No. 28, Grogol Petamburan, Jakarta Barat 11470
+- Jam kerja: Senin–Jumat, 08.00–18.00 WIB
 
-<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
-<strong>Omniflow</strong> — Indonesia's Next AI-Native ERP. Untuk UMKM yang siap tumbuh.
-</div>

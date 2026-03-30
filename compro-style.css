@@ -124,6 +124,11 @@
     font-weight: 600 !important;
 }
 
+.reveal table th strong,
+.reveal table th b {
+    color: white !important;
+}
+
 /* Tables */
 .reveal table {
     border-collapse: collapse !important;
@@ -256,10 +261,12 @@ body:has(.reveal .slides section.hide-logo.present) .slide-logo {
 /* Full-width content slides - maximize space usage */
 .reveal .slides section.full-width {
     text-align: left !important;
-    padding: 40px 60px !important;
+    padding: 24px 48px !important;
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
 }
 
 .reveal .slides section.full-width h2 {
@@ -277,9 +284,17 @@ body:has(.reveal .slides section.hide-logo.present) .slide-logo {
 }
 
 .reveal .slides section.full-width ul,
+.reveal .slides section.full-width ol,
 .reveal .slides section.full-width p,
 .reveal .slides section.full-width div {
     text-align: left !important;
+}
+
+.reveal .slides section.full-width li {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100% !important;
 }
 
 /* Prevent callout boxes from overflowing in full-width slides */
@@ -287,4 +302,283 @@ body:has(.reveal .slides section.hide-logo.present) .slide-logo {
     max-width: calc(100% - 120px) !important;
     box-sizing: border-box !important;
     word-wrap: break-word !important;
+}
+
+/* ============================================================
+   STAT / METRIC CARDS
+   ============================================================ */
+
+.metric-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 24px !important;
+}
+
+.step-grid-2 {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 24px !important;
+}
+
+.metric-grid-3 {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+    width: 100% !important;
+    margin-top: 24px !important;
+}
+
+.stat-card {
+    background: white !important;
+    border: 1px solid #dbeafe !important;
+    border-radius: 14px !important;
+    padding: 28px 20px !important;
+    text-align: center !important;
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.08) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 8px 28px rgba(37, 99, 235, 0.15) !important;
+}
+
+.stat-number {
+    font-size: 2.6em !important;
+    font-weight: 800 !important;
+    color: var(--primary-blue) !important;
+    line-height: 1 !important;
+    letter-spacing: -0.04em !important;
+    display: block !important;
+    margin-bottom: 8px !important;
+}
+
+.stat-label {
+    font-size: 0.78em !important;
+    font-weight: 500 !important;
+    color: var(--text-light) !important;
+    line-height: 1.4 !important;
+    display: block !important;
+}
+
+.stat-card.accent {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+    border-color: transparent !important;
+}
+
+.stat-card.accent .stat-number {
+    color: white !important;
+}
+
+.stat-card.accent .stat-label {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ============================================================
+   2-COLUMN LAYOUTS
+   ============================================================ */
+
+/* Balance column widths from .columns in full-width slides */
+.reveal .slides section.full-width .columns .column {
+    padding: 0 16px !important;
+}
+
+.reveal .slides section.full-width .columns .column:first-child {
+    padding-left: 0 !important;
+}
+
+.reveal .slides section.full-width .columns .column:last-child {
+    padding-right: 0 !important;
+}
+
+/* Image column helpers */
+.img-cover {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 14px !important;
+    display: block !important;
+}
+
+.img-rounded {
+    width: 100% !important;
+    border-radius: 14px !important;
+    display: block !important;
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.12) !important;
+}
+
+.image-caption {
+    font-size: 0.65em !important;
+    color: var(--text-light) !important;
+    text-align: center !important;
+    margin-top: 8px !important;
+    font-style: italic !important;
+}
+
+/* ============================================================
+   FEATURE ICON CARDS (3-grid)
+   ============================================================ */
+
+.feature-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 20px !important;
+}
+
+.feature-card {
+    background: var(--bg-blue) !important;
+    border: 1px solid #bfdbfe !important;
+    border-radius: 12px !important;
+    padding: 20px 16px !important;
+    text-align: left !important;
+}
+
+.feature-card .fc-title {
+    font-size: 0.85em !important;
+    font-weight: 700 !important;
+    color: var(--primary-blue) !important;
+    margin-bottom: 6px !important;
+    display: block !important;
+}
+
+.feature-card .fc-desc {
+    font-size: 0.72em !important;
+    color: var(--text-dark) !important;
+    line-height: 1.5 !important;
+    display: block !important;
+}
+
+/* ============================================================
+   STEP / TIMELINE CARDS
+   ============================================================ */
+
+.step-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 24px !important;
+}
+
+.step-card {
+    background: white !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 14px !important;
+    padding: 24px 20px !important;
+    position: relative !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05) !important;
+}
+
+.step-number {
+    width: 36px !important;
+    height: 36px !important;
+    background: var(--primary-blue) !important;
+    color: white !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 700 !important;
+    font-size: 0.9em !important;
+    margin-bottom: 12px !important;
+}
+
+.step-title {
+    font-size: 0.85em !important;
+    font-weight: 700 !important;
+    color: var(--dark-blue) !important;
+    margin-bottom: 8px !important;
+    display: block !important;
+}
+
+.step-desc {
+    font-size: 0.72em !important;
+    color: var(--text-light) !important;
+    line-height: 1.5 !important;
+    display: block !important;
+}
+
+/* ============================================================
+   BACKGROUND IMAGE SECTION HEADERS
+   ============================================================ */
+
+/* Section divider slides with background overlay */
+.reveal section.section-divider {
+    position: relative !important;
+}
+
+.reveal section.section-divider h1 {
+    color: white !important;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4) !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+/* Gradient overlay on top of background images */
+.reveal section[data-background-image]::before {
+    content: '' !important;
+    position: absolute !important;
+    inset: 0 !important;
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.75) 0%, rgba(37, 99, 235, 0.55) 100%) !important;
+    z-index: 1 !important;
+}
+
+.reveal section[data-background-image] > * {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+/* ============================================================
+   QUOTE / HIGHLIGHT BOX
+   ============================================================ */
+
+.highlight-box {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+    border-radius: 14px !important;
+    padding: 28px 32px !important;
+    color: white !important;
+    text-align: center !important;
+    margin-top: 24px !important;
+}
+
+.highlight-box p, .highlight-box strong {
+    color: white !important;
+}
+
+.highlight-box .big-text {
+    font-size: 1.4em !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+}
+
+/* ============================================================
+   INDUSTRY BADGE GRID
+   ============================================================ */
+
+.badge-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    margin-top: 20px !important;
+}
+
+.industry-badge {
+    background: var(--bg-blue) !important;
+    border: 1px solid #bfdbfe !important;
+    border-radius: 999px !important;
+    padding: 8px 20px !important;
+    font-size: 0.78em !important;
+    font-weight: 600 !important;
+    color: var(--primary-blue) !important;
+    display: inline-block !important;
 }

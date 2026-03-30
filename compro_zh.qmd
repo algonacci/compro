@@ -1,0 +1,301 @@
+---
+format:
+    revealjs:
+        theme: simple
+        css: compro-style.css
+        slide-number: c/t
+        include-after-body: hide-logo.html
+        chalkboard:
+            buttons: true
+            theme: whiteboard
+        transition: slide
+        background-transition: fade
+        code-copy: true
+        code-fold: true
+        code-overflow: wrap
+        smaller: false
+        incremental: false
+        preview-links: auto
+        logo: "logo.png"
+        footer: ""
+        margin: 0.1
+        fig-responsive: true
+        highlight-style: github
+        html-math-method: katex
+---
+
+# {#hero-slide .gradient-hero .smaller .hide-logo}
+
+<div style="text-align: center; padding-top: 15vh;">
+
+![](logo.png){width=450 style="margin-bottom: 40px; object-fit: cover; object-position: center; max-height: 120px;"}
+
+<h2 style="font-size: 1.8em; color: #2563eb; font-weight: 600; margin-bottom: 1.5em;">印度尼西亚下一代 AI 原生 ERP</h2>
+
+<p style="font-size: 1.2em; color: #64748b; margin-bottom: 2em;">
+以智能自动化重塑企业运营
+</p>
+
+</div>
+
+# 问题陈述 {#section-problem}
+
+## 企业 ERP：专为大型企业而生 {#problem-enterprise .full-width .smaller}
+
+当前的企业资源规划系统是为大型企业量身打造的：
+
+- 实施成本高达数千万至数亿印尼盾
+- 界面复杂，需要大量培训和专业 IT 团队支持
+- 部署周期漫长，往往耗时数月乃至数年
+- 持续维护需要专职内部 IT 团队
+- 功能繁多，大部分功能实际上从未被使用
+
+## 中小企业的困境 {#problem-sme .full-width .smaller}
+
+缺乏完善 ERP 系统的中小企业被迫依赖：
+
+- 容易出错、数据易丢失的手动电子表格
+- 分散在各个互不联通平台中的碎片化数据
+- 基于直觉而非数据洞察的业务决策
+- 无法随业务扩展的纸质流程
+- 对运营状况和业务绩效的有限可见性
+
+## 差距的代价 {#problem-gap .full-width .smaller}
+
+这一技术鸿沟带来了严重后果：
+
+- 宝贵时间浪费在重复性行政任务上
+- 错失增长和运营优化的机会
+- 面对数据驱动型竞争对手处于竞争劣势
+- 无法高效地扩展运营规模
+- 因手动低效导致运营成本居高不下
+
+<div style="margin-top: 40px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>核心差距：</strong>中小企业需要企业级技术，但现有解决方案成本高昂且过于复杂。
+</div>
+
+# 解决方案 {#section-solution}
+
+## Omniflow — 人人可用的 ERP {#solution-intro .smaller}
+
+Omniflow 的诞生，正是为了填补市场长期存在的这一空白：
+
+- **价格亲民** — 无需设置费，按月订阅，提供 30 天免费试用
+- **AI 原生** — 智能自动化内嵌于每个模块，而非附加功能
+- **易于使用** — 界面直观，小型企业 2–4 周即可完成部署
+- **模块化** — 18 个集成模块，按需启用，随业务增长灵活扩展
+- **云端部署** — 支持 Web、iOS 和 Android 访问，正常运行时间 SLA 99.9%
+
+<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>Omniflow 的使命：</strong>为企业数字化转型提供一体化 ERP 解决方案 — 已获 10,000+ 企业信赖。
+</div>
+
+## 使用流程 {#solution-how .full-width .smaller}
+
+1. **注册并选择模块** — 根据业务需求选择所需模块
+2. **导入数据并完成配置** — 入职培训与系统配置，2–4 周内完成
+3. **运营业务** — 实时监控运营状况，基于数据做出决策
+
+# 核心功能 {#section-features}
+
+## 18 个集成模块（1/3） {#features-modules .full-width .smaller}
+
+- **人力资源管理系统（HRIS）** — 招聘、考勤、薪酬、绩效管理
+- **会计** — 总账、开票、财务报告、多币种支持
+- **销售点（POS）** — 线上/线下收银、实时库存、多店管理
+- **电子商务** — 集成网店、订单与支付管理
+- **库存管理** — 多仓库、实时追踪、仓库优化
+- **销售管理** — 可视化销售漏斗、商机跟踪、收入预测
+
+## 18 个集成模块（2/3） {#features-modules-2 .full-width .smaller}
+
+- **采购管理** — 采购订单、供应商管理、自动询价
+- **支付网关** — Midtrans、虚拟账户、QRIS、电子钱包
+- **XRM** — 客户关系管理、RBAC、双因素认证、Redis 缓存
+- **学习管理系统（LMS）** — 员工学习与培训管理
+- **电话营销** — 自动拨号、TTS 语音、外呼活动管理
+- **数据分析** — 集成 BCA、OrderOnline、Majoo、Moka
+
+## 18 个集成模块（3/3） {#features-modules-3 .full-width .smaller}
+
+- **资产管理** — 资产追踪、折旧计算、维护计划
+- **短链接工具（URLs）** — URL 缩短、二维码、自定义域名、点击分析
+- **数字名片（Bizzcard）** — 数字名片、NFC 分享、vCard 导出
+- **制造业** — 物料清单、工单、生产计划、质量控制
+- **供应链** — 端到端供应链管理、多供应商支持
+- **文档管理系统（DMS）** — 文档管理、版本控制、审批工作流
+
+## AI 与技术 {#features-ai .full-width .smaller}
+
+Omniflow 从底层构建即融入现代技术与 AI：
+
+- **AI 驱动** — 智能自动化、预测分析，覆盖每一个模块
+- **Redis 缓存** — 高性能，亚毫秒级响应速度
+- **任务队列（RabbitMQ）** — 异步任务处理，熔断器模式
+- **移动端原生** — Flutter 开发的 iOS 和 Android 应用
+- **50+ 集成** — Odoo、SAP、Salesforce、Shopify、WooCommerce 等
+- **Zapier** — 连接 5,000+ 第三方应用
+- **API 优先** — RESTful API，支持与任意系统的自定义集成
+
+# 核心价值 {#section-benefits}
+
+## 可量化的成效 {#benefits-impact .full-width .smaller}
+
+来自 Omniflow 用户的真实数据：
+
+- **90%** 软件复杂度降低 — 一个平台，替代多套系统
+- **3 倍** 决策速度提升，依托实时数据分析
+- **60%** 生产力提升，通过日常任务自动化实现
+- **40%** 平均运营成本削减
+- **15 小时/周** 节省自 HR 行政自动化
+- **35%** HR 运营成本节省
+
+## 平台核心优势 {#benefits-platform .full-width .smaller}
+
+Omniflow 与其他解决方案的核心差异：
+
+- **一体化** — 将所有业务流程整合到单一平台
+- **高可扩展性** — 支持 10 万+ 用户，与业务共同成长
+- **安全可靠** — ISO 27001 认证、企业级加密、多因素认证
+- **稳定运行** — 正常运行时间 SLA 99.9%，冗余基础设施
+- **全天候支持** — 技术协助、专属客户经理、认证培训
+- **多语言** — 印尼语、英语与普通话
+
+<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>30 天免费试用</strong> — 无需设置费，无需承诺。
+</div>
+
+# 应用场景 {#section-use-cases}
+
+## 服务行业 {#use-cases-industry .full-width .smaller}
+
+- **制造业** — 物料清单、生产、质量控制、供应链
+- **零售与电商** — 多店 POS、库存、电商平台集成
+- **餐饮业** — 原材料管理、配方管理、线下收银
+- **分销与贸易** — 采购订单、多仓库管理、供应商管理
+- **服务业与咨询** — CRM、项目管理、客户开票
+- **教育** — LMS、学员管理、进度追踪
+- **医疗与医院** — 病历、结算、员工管理
+- **供应链与物流** — 货运、追踪、车队管理
+- **房地产与建筑** — 项目、资产与合同管理
+
+## 适用规模 {#use-cases-scale .full-width .smaller}
+
+Omniflow 面向各规模企业设计：
+
+- **1–10 名员工** — 基础模块，快速部署，价格亲民
+- **11–50 名员工** — 完整模块，多用户，管理报表
+- **51–200 名员工** — 自定义工作流、高级集成、专属支持
+- **201–1000+ 名员工** — 企业级解决方案，定制 SLA，完整实施
+
+# 技术架构 {#section-technology}
+
+## 技术栈与基础设施 {#technology-stack .full-width .smaller}
+
+Omniflow 构建于可靠的现代技术基础之上：
+
+- **云基础设施** — 正常运行时间 SLA 99.9%，冗余基础设施
+- **架构** — 微服务架构，搭配 Redis 缓存与 RabbitMQ 任务队列
+- **移动端** — Flutter 原生 iOS 和 Android 应用
+- **安全性** — ISO 27001、AES-256 加密、MFA、完整审计日志
+- **合规** — GDPR、ISO 27001、PCI DSS
+- **API** — RESTful API，API 优先设计，实现无缝集成
+
+## 50+ 开箱即用的集成 {#technology-integrations .full-width .smaller}
+
+Omniflow 与全球及本地商业生态系统无缝连接：
+
+- **ERP** — Odoo、SAP
+- **CRM** — Salesforce
+- **电商** — Shopify、WooCommerce、Magento
+- **会计** — Microsoft Dynamics、QuickBooks、Xero
+- **支付** — Midtrans（VA、QRIS、信用卡、电子钱包）
+- **本地分析** — BCA、OrderOnline、Majoo、Moka
+- **协作** — Slack、Zoom
+- **自动化** — Zapier（连接 5,000+ 应用）
+
+# 竞争优势 {#section-competitive}
+
+## Omniflow 与同类产品对比 {#competitive-table .full-width .smaller}
+
+|  | **Omniflow** | 企业级 ERP | 电子表格 |
+|--|:--:|:--:|:--:|
+| 部署周期 | 2–4 周 | 2–3 个月 | 即时 |
+| 模块数量 | 18 个集成 | 有限 | 无 |
+| 内置 AI | 是 | 较少 | 否 |
+| ISO 27001 | 是 | 是 | 否 |
+| 多语言 | 印尼语/英语/中文 | 较少 | 有限 |
+| 移动端应用 | iOS 和 Android | 较少 | 否 |
+| 50+ 集成 | 是 | 部分 | 否 |
+
+## 核心竞争力 {#competitive-advantages .full-width .smaller}
+
+Omniflow 有别于所有竞品的根本所在：
+
+- **本土化与情境适配** — 专为印尼商业法规与业务习惯设计
+- **单一平台，18 个模块** — 软件复杂度降低 90%
+- **AI 原生** — 非后期附加，深度嵌入每一个工作流
+- **快速实施** — 小型企业 2–4 周上线，而非数月
+- **全天候支持** — 认证专家团队随时待命
+
+# 发展路线图 {#section-roadmap}
+
+## 路线图：当前可用 {#roadmap-now .full-width .smaller}
+
+今天即可使用的功能与模块：
+
+- 18 个集成模块（HRIS、会计、POS、电商等）
+- 50+ 全球与本地平台集成
+- iOS 和 Android 移动端应用，多语言支持（印尼语/英语/中文）
+
+## 路线图：即将推出 {#roadmap-soon .full-width .smaller}
+
+正在积极开发中的功能：
+
+- 更强大的制造业与供应链模块
+- 更精准的 AI 需求预测
+- 扩展印尼本土电商平台集成（Tokopedia、Shopee）
+
+## 路线图：长远愿景 {#roadmap-vision .full-width .smaller}
+
+Omniflow 的战略发展方向：
+
+- 第三方模块市场
+- 拓展东南亚市场
+- 为印尼中小企业构建一体化数字商业生态系统
+
+# 定价方案 {#section-pricing}
+
+## 套餐与定价 {#pricing-plans .full-width .smaller}
+
+价格透明，无隐藏费用：
+
+| 功能 | **入门版** | **成长版** | **企业版** |
+|--|:--:|:--:|:--:|
+| 员工人数 | 1–10 | 11–50 | 51–1000+ |
+| 模块 | 核心模块 | 全部模块 | 全部 + 定制 |
+| 移动端应用 | 是 | 是 | 是 |
+| 集成 | 标准 | 50+ | 定制 API |
+| 技术支持 | 邮件 | 24/7 在线客服 | 专属客户经理 |
+| 入职培训 | 自助 | 引导式 | 全程托管 |
+| 实施周期 | 自主完成 | 2–4 周 | 2–3 个月 |
+
+<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>30 天免费试用</strong> — 无需设置费，无需信用卡。
+</div>
+
+# 联系我们 {#section-contact}
+
+## 立即开始 {#contact-cta .full-width .smaller}
+
+- **免费演示** — 亲眼见证 Omniflow 如何赋能您的业务
+- **咨询服务** — 我们将协助您设计最合适的解决方案
+- **30 天试用** — 零风险，无需设置费
+
+## 联系方式 {#contact-info .full-width .smaller}
+
+- 官网：[omniflow.id](https://omniflow.id)
+- 邮箱：contact@omniflow.id
+- 电话：+62 821 2560 9413
+- 地址：Jl. Letjen S. Parman No. 28, Grogol Petamburan, 西雅加达 11470
+- 办公时间：周一至周五，08:00–18:00 WIB

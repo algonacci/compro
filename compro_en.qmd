@@ -1,0 +1,301 @@
+---
+format:
+    revealjs:
+        theme: simple
+        css: compro-style.css
+        slide-number: c/t
+        include-after-body: hide-logo.html
+        chalkboard:
+            buttons: true
+            theme: whiteboard
+        transition: slide
+        background-transition: fade
+        code-copy: true
+        code-fold: true
+        code-overflow: wrap
+        smaller: false
+        incremental: false
+        preview-links: auto
+        logo: "logo.png"
+        footer: ""
+        margin: 0.1
+        fig-responsive: true
+        highlight-style: github
+        html-math-method: katex
+---
+
+# {#hero-slide .gradient-hero .smaller .hide-logo}
+
+<div style="text-align: center; padding-top: 15vh;">
+
+![](logo.png){width=450 style="margin-bottom: 40px; object-fit: cover; object-position: center; max-height: 120px;"}
+
+<h2 style="font-size: 1.8em; color: #2563eb; font-weight: 600; margin-bottom: 1.5em;">Indonesia's Next AI-Native ERP</h2>
+
+<p style="font-size: 1.2em; color: #64748b; margin-bottom: 2em;">
+Transforming Business Operations with Intelligent Automation
+</p>
+
+</div>
+
+# Problem Statement {#section-problem}
+
+## Enterprise ERP: Built for Giants {#problem-enterprise .full-width .smaller}
+
+Today's enterprise resource planning systems are built for large corporations:
+
+- Implementation costs ranging from tens to hundreds of millions of rupiah
+- Complex interfaces requiring extensive training and dedicated IT expertise
+- Deployment processes that take months or even years to complete
+- Continuous maintenance demands a dedicated internal IT team
+- Feature-heavy platforms where most capabilities go unused
+
+## The SME Struggle {#problem-sme .full-width .smaller}
+
+Without access to a proper ERP system, SMEs are forced to rely on:
+
+- Manual spreadsheets prone to human error and data loss
+- Fragmented data scattered across disconnected platforms
+- Business decisions driven by intuition rather than data insights
+- Paper-based processes that cannot scale with the business
+- Limited visibility into operations and overall business performance
+
+## The Cost of the Gap {#problem-gap .full-width .smaller}
+
+This technology gap creates serious consequences:
+
+- Valuable time wasted on repetitive administrative tasks
+- Missed opportunities for growth and operational optimization
+- Competitive disadvantage against data-driven competitors
+- Inability to scale operations efficiently
+- Higher operating costs due to manual inefficiencies
+
+<div style="margin-top: 40px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>The Gap:</strong> SMEs need enterprise-grade technology, but existing solutions are too expensive and complex.
+</div>
+
+# Solution {#section-solution}
+
+## Omniflow — ERP for Everyone {#solution-intro .smaller}
+
+Omniflow is built to bridge the gap that has long existed in the market:
+
+- **Affordable** — no setup fee, monthly subscription, 30-day free trial
+- **AI-Native** — intelligent automation built into every module, not an add-on
+- **Easy to use** — intuitive interface, 2–4 week setup for small businesses
+- **Modular** — 18 integrated modules, start with what you need and grow from there
+- **Cloud-based** — access via web, iOS, and Android with 99.9% uptime SLA
+
+<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>Omniflow's Mission:</strong> An integrated ERP solution for business transformation — trusted by 10,000+ businesses.
+</div>
+
+## How It Works {#solution-how .full-width .smaller}
+
+1. **Sign Up & Choose Modules** — select modules that fit your business needs
+2. **Import & Setup** — onboarding and system configuration within 2–4 weeks
+3. **Run Your Business** — monitor operations and make data-driven decisions
+
+# Key Features {#section-features}
+
+## 18 Integrated Modules (1/3) {#features-modules .full-width .smaller}
+
+- **HRIS** — recruitment, attendance, payroll, performance management
+- **Accounting** — general ledger, invoicing, financial reports, multi-currency
+- **Point of Sale** — offline/online cashier, real-time stock, multi-store
+- **E-Commerce** — integrated online store, order and payment management
+- **Inventory** — multi-location, real-time tracking, warehouse optimization
+- **Sales Management** — visual pipeline, deal tracking, revenue forecasting
+
+## 18 Integrated Modules (2/3) {#features-modules-2 .full-width .smaller}
+
+- **Purchasing** — purchase orders, vendor management, automated RFQ
+- **Payment Gateway** — Midtrans, Virtual Account, QRIS, e-wallet
+- **XRM** — client relationship management, RBAC, 2FA, Redis caching
+- **LMS** — learning and employee training management system
+- **Telemarketing** — auto-dialer, TTS audio, outbound campaign management
+- **Analytics** — integrated with BCA, OrderOnline, Majoo, Moka
+
+## 18 Integrated Modules (3/3) {#features-modules-3 .full-width .smaller}
+
+- **Asset Management** — asset tracking, depreciation, maintenance scheduling
+- **URLs** — URL shortener, QR code, custom domain, click analytics
+- **Bizzcard** — digital business card, NFC sharing, vCard export
+- **Manufacturing** — BOM, work order, production planning, quality control
+- **Supply Chain** — end-to-end supply chain management, multi-supplier
+- **DMS** — document management, versioning, approval workflow
+
+## AI & Technology {#features-ai .full-width .smaller}
+
+Omniflow is built on modern technology and AI from the ground up:
+
+- **AI-Powered** — intelligent automation, predictions, and analytics in every module
+- **Redis Caching** — high performance, sub-millisecond response times
+- **Job Queue (RabbitMQ)** — asynchronous job processing, circuit breaker pattern
+- **Mobile Native** — Flutter app for iOS and Android
+- **50+ Integrations** — Odoo, SAP, Salesforce, Shopify, WooCommerce, and more
+- **Zapier** — connects to 5,000+ third-party applications
+- **API-First** — RESTful API for custom integration with any system
+
+# Benefits {#section-benefits}
+
+## Measurable Impact {#benefits-impact .full-width .smaller}
+
+Real numbers from Omniflow users:
+
+- **90%** reduction in software complexity — one platform, not many systems
+- **3x** faster decision-making with real-time analytics
+- **60%** productivity increase through routine task automation
+- **40%** average reduction in operational costs
+- **15 hrs/week** saved from HR administration automation
+- **35%** savings in HR operational costs
+
+## Platform Advantages {#benefits-platform .full-width .smaller}
+
+What sets Omniflow apart from other solutions:
+
+- **All-in-One** — integrate all business processes into a single platform
+- **Scalable** — supports 100K+ users, grows alongside your business
+- **Secure** — ISO 27001 certified, enterprise encryption, multi-factor authentication
+- **Reliable** — 99.9% uptime SLA, redundant infrastructure
+- **24/7 Support** — technical assistance, dedicated account manager, certified training
+- **Multi-language** — Indonesian, English, and Mandarin
+
+<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>30-day free trial</strong> — no setup fee, no commitment.
+</div>
+
+# Use Cases {#section-use-cases}
+
+## Industries We Serve {#use-cases-industry .full-width .smaller}
+
+- **Manufacturing** — BOM, production, quality control, supply chain
+- **Retail & E-Commerce** — multi-store PoS, inventory, marketplace integration
+- **F&B & Culinary** — raw material management, recipes, offline cashier
+- **Distribution & Trading** — purchase orders, multi-warehouse, vendor management
+- **Services & Consulting** — CRM, project management, client invoicing
+- **Education** — LMS, participant management, progress tracking
+- **Hospital & Healthcare** — medical records, billing, staff management
+- **Supply Chain & Logistics** — shipping, tracking, fleet management
+- **Property & Construction** — project, asset, and contract management
+
+## Business Scale {#use-cases-scale .full-width .smaller}
+
+Omniflow is designed for companies of all sizes:
+
+- **1–10 employees** — starter modules, quick setup, affordable pricing
+- **11–50 employees** — full modules, multi-user, management reports
+- **51–200 employees** — custom workflows, advanced integrations, dedicated support
+- **201–1000+ employees** — enterprise solution, custom SLA, full implementation
+
+# Technology {#section-technology}
+
+## Tech Stack & Infrastructure {#technology-stack .full-width .smaller}
+
+Omniflow is built on a reliable modern technology foundation:
+
+- **Cloud Infrastructure** — 99.9% uptime SLA, redundant infrastructure
+- **Architecture** — microservices with Redis caching and RabbitMQ job queue
+- **Mobile** — native Flutter app for iOS and Android
+- **Security** — ISO 27001, AES-256 encryption, MFA, complete audit trail
+- **Compliance** — GDPR, ISO 27001, PCI DSS
+- **API** — RESTful API, API-first approach for seamless integration
+
+## 50+ Ready-to-Use Integrations {#technology-integrations .full-width .smaller}
+
+Omniflow connects with the global and local business ecosystem:
+
+- **ERP** — Odoo, SAP
+- **CRM** — Salesforce
+- **E-Commerce** — Shopify, WooCommerce, Magento
+- **Accounting** — Microsoft Dynamics, QuickBooks, Xero
+- **Payments** — Midtrans (VA, QRIS, Credit Card, E-Wallet)
+- **Local Analytics** — BCA, OrderOnline, Majoo, Moka
+- **Collaboration** — Slack, Zoom
+- **Automation** — Zapier (connects to 5,000+ applications)
+
+# Competitive Advantage {#section-competitive}
+
+## Omniflow vs The Alternatives {#competitive-table .full-width .smaller}
+
+|  | **Omniflow** | Enterprise ERP | Spreadsheet |
+|--|:--:|:--:|:--:|
+| Setup | 2–4 weeks | 2–3 months | Minutes |
+| Modules | 18 integrated | Limited | None |
+| AI Built-in | Yes | Rarely | No |
+| ISO 27001 | Yes | Yes | No |
+| Multi-language | ID / EN / ZH | Rarely | Limited |
+| Mobile App | iOS & Android | Rarely | No |
+| 50+ Integrations | Yes | Partial | No |
+
+## Competitive Strengths {#competitive-advantages .full-width .smaller}
+
+What makes Omniflow different from all alternatives:
+
+- **Local & contextual** — designed for Indonesian business regulations and practices
+- **18 modules in one platform** — 90% reduction in software complexity
+- **AI from day one** — not a bolt-on feature, embedded throughout every workflow
+- **Fast implementation** — 2–4 weeks for small businesses, not months
+- **24/7 support** — certified expert team ready to help at any time
+
+# Roadmap {#section-roadmap}
+
+## Roadmap: Available Now {#roadmap-now .full-width .smaller}
+
+Features and modules available to use today:
+
+- 18 integrated modules (HRIS, Accounting, PoS, E-Commerce, and more)
+- 50+ global and local platform integrations
+- Mobile app for iOS & Android, multi-language (ID/EN/ZH)
+
+## Roadmap: Coming Soon {#roadmap-soon .full-width .smaller}
+
+Features currently in active development:
+
+- More advanced Manufacturing & Supply Chain modules
+- More precise AI demand forecasting
+- Expanded Indonesian marketplace integrations (Tokopedia, Shopee)
+
+## Roadmap: Long-Term Vision {#roadmap-vision .full-width .smaller}
+
+Omniflow's strategic direction ahead:
+
+- Third-party module marketplace
+- Expansion into Southeast Asian markets
+- Integrated digital business ecosystem for Indonesian SMEs
+
+# Pricing {#section-pricing}
+
+## Plans & Pricing {#pricing-plans .full-width .smaller}
+
+Transparent pricing, no hidden fees:
+
+| Feature | **Starter** | **Growth** | **Enterprise** |
+|--|:--:|:--:|:--:|
+| Employees | 1–10 | 11–50 | 51–1000+ |
+| Modules | Core selection | All modules | All + Custom |
+| Mobile App | Yes | Yes | Yes |
+| Integrations | Standard | 50+ | Custom API |
+| Support | Email | 24/7 Chat | Dedicated Manager |
+| Onboarding | Self-serve | Guided | White-glove |
+| Implementation | Self-managed | 2–4 weeks | 2–3 months |
+
+<div style="margin-top: 30px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>30-day free trial</strong> — no setup fee, no credit card required.
+</div>
+
+# Contact {#section-contact}
+
+## Get Started {#contact-cta .full-width .smaller}
+
+- **Free demo** — see Omniflow in action for your business
+- **Consultation** — we'll help you design the right solution
+- **30-day trial** — no risk, no setup fee
+
+## Contact Us {#contact-info .full-width .smaller}
+
+- Website: [omniflow.id](https://omniflow.id)
+- Email: contact@omniflow.id
+- Phone: +62 821 2560 9413
+- Address: Jl. Letjen S. Parman No. 28, Grogol Petamburan, West Jakarta 11470
+- Office hours: Monday–Friday, 08:00–18:00 WIB
