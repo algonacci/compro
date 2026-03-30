@@ -209,6 +209,14 @@
     opacity: 1 !important;
 }
 
+/* Hide logo when viewing slides with .hide-logo class */
+.reveal .slides section.hide-logo.present ~ .slide-logo,
+.reveal .slides section.hide-logo.present ~ * .slide-logo,
+body:has(.reveal .slides section.hide-logo.present) .slide-logo {
+    display: none !important;
+    visibility: hidden !important;
+}
+
 /* Custom gradient backgrounds - Light theme only */
 .gradient-blue {
     background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
@@ -243,4 +251,40 @@
 /* Controls (navigation arrows) */
 .reveal .controls {
     color: var(--primary-blue) !important;
+}
+
+/* Full-width content slides - maximize space usage */
+.reveal .slides section.full-width {
+    text-align: left !important;
+    padding: 40px 60px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+.reveal .slides section.full-width h2 {
+    text-align: left !important;
+    margin-bottom: 40px !important;
+}
+
+.reveal .slides section.full-width h3 {
+    text-align: left !important;
+}
+
+.reveal .slides section.full-width .columns {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.reveal .slides section.full-width ul,
+.reveal .slides section.full-width p,
+.reveal .slides section.full-width div {
+    text-align: left !important;
+}
+
+/* Prevent callout boxes from overflowing in full-width slides */
+.reveal .slides section.full-width div[style*="border-left"] {
+    max-width: calc(100% - 120px) !important;
+    box-sizing: border-box !important;
+    word-wrap: break-word !important;
 }

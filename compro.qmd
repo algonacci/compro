@@ -1,12 +1,10 @@
 ---
-title: "Omniflow"
-subtitle: "Indonesia's Next AI-Native ERP"
-author: ""
 format:
     revealjs:
         theme: simple
         css: compro-style.css
         slide-number: c/t
+        include-after-body: hide-logo.html
         chalkboard:
             buttons: true
             theme: whiteboard
@@ -26,13 +24,11 @@ format:
         html-math-method: katex
 ---
 
-# {#hero-slide .gradient-hero}
+# {#hero-slide .gradient-hero .smaller .hide-logo}
 
 <div style="text-align: center; padding-top: 15vh;">
 
-![](logo.png){width=350 style="margin-bottom: 20px; object-fit: cover; object-position: center; max-height: 100px;"}
-
-<h1 style="font-size: 3.5em; font-weight: bold; color: #1e3a8a; margin-bottom: 0.3em;">Omniflow</h1>
+![](logo.png){width=450 style="margin-bottom: 40px; object-fit: cover; object-position: center; max-height: 120px;"}
 
 <h2 style="font-size: 1.8em; color: #2563eb; font-weight: 600; margin-bottom: 1.5em;">Indonesia's Next AI-Native ERP</h2>
 
@@ -41,3 +37,111 @@ Transforming Business Operations with Intelligent Automation
 </p>
 
 </div>
+
+# Problem Statement {#section-problem}
+
+## Enterprise ERP: Built for Giants {#problem-enterprise .full-width .smaller}
+
+Sistem enterprise resource planning saat ini dirancang untuk korporasi besar:
+
+- Biaya implementasi puluhan hingga ratusan juta rupiah
+- Interface kompleks yang butuh training ekstensif dan keahlian IT
+- Proses deployment bisa memakan waktu berbulan-bulan bahkan bertahun-tahun
+- Maintenance berkelanjutan membutuhkan tim IT khusus
+- Platform dengan banyak fitur yang sebagian besar tidak terpakai
+
+## The SME Struggle {#problem-sme .full-width .smaller}
+
+Tanpa akses ke sistem ERP yang proper, UMKM terpaksa menggunakan:
+
+- Spreadsheet manual yang rawan human error dan kehilangan data
+- Data terfragmentasi di berbagai platform yang tidak terhubung
+- Keputusan bisnis berdasarkan intuisi, bukan data insights
+- Proses berbasis kertas yang tidak bisa scale
+- Visibility terbatas terhadap operasional dan performa bisnis
+
+## The Cost of the Gap {#problem-gap .full-width .smaller}
+
+Kesenjangan teknologi ini menciptakan konsekuensi serius:
+
+- Waktu berharga terbuang untuk tugas-tugas administratif repetitif
+- Kehilangan peluang untuk growth dan optimasi operasional
+- Disadvantage kompetitif melawan kompetitor yang data-driven
+- Ketidakmampuan untuk scale operasi secara efisien
+- Biaya operasional lebih tinggi karena ineffisiensi manual
+
+<div style="margin-top: 40px; padding: 20px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 8px;">
+<strong>The Gap:</strong> UMKM butuh teknologi enterprise, tapi solusi yang ada terlalu mahal dan kompleks.
+</div>
+
+# Solution {#section-solution}
+
+## Omniflow: ERP untuk Semua {#solution}
+
+<!-- Content here: Kenapa Omniflow beda - affordable, AI-powered -->
+
+# Key Features {#section-features}
+
+## Platform Features {#features}
+
+<!-- Content here: Fitur utama (AI-Native, Modular, Cloud-based, dll) -->
+
+# Benefits {#section-benefits}
+
+## Value Proposition {#benefits}
+
+<!-- Content here: ROI, time savings, automation benefits -->
+
+# Product Demo {#section-demo}
+
+## See It In Action {#demo}
+
+<!-- Content here: Screenshots/mockups produk -->
+
+# Use Cases {#section-use-cases}
+
+## Who Uses Omniflow? {#use-cases}
+
+<!-- Content here: Industries & business sizes -->
+
+# Technology {#section-technology}
+
+## Powered by AI {#technology}
+
+<!-- Content here: Tech stack, AI capabilities, architecture -->
+
+# Competitive Advantage {#section-competitive}
+
+## Why Omniflow? {#competitive-advantage}
+
+<!-- Content here: Omniflow vs traditional ERP -->
+
+# Roadmap {#section-roadmap}
+
+## What's Next {#roadmap}
+
+<!-- Content here: Future features & vision -->
+
+# Team {#section-team}
+
+## Meet the Team {#team}
+
+<!-- Content here: Founders/key team members -->
+
+# Testimonials {#section-testimonials}
+
+## Customer Stories {#testimonials}
+
+<!-- Content here: Reviews, case studies -->
+
+# Pricing {#section-pricing}
+
+## Plans & Pricing {#pricing}
+
+<!-- Content here: Pricing tiers, mulai dari yang affordable -->
+
+# Contact {#section-contact}
+
+## Get Started Today {#contact}
+
+<!-- Content here: CTA, contact info, demo request -->
