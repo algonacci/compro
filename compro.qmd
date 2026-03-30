@@ -6,7 +6,6 @@ format:
     revealjs:
         theme: simple
         css: compro-style.css
-        resources: [logo-white.png]
         slide-number: c/t
         chalkboard:
             buttons: true
@@ -27,17 +26,17 @@ format:
         html-math-method: katex
 ---
 
-# {#hero-slide background-color="#1a1a2e"}
+# {#hero-slide .gradient-hero}
 
 <div style="text-align: center; padding-top: 15vh;">
 
-![](logo-white.png){width=300 style="margin-bottom: 30px;"}
+![](logo.png){width=350 style="margin-bottom: 20px; object-fit: cover; object-position: center; max-height: 100px;"}
 
-<h1 style="font-size: 3.5em; font-weight: bold; color: white; margin-bottom: 0.3em;">Omniflow</h1>
+<h1 style="font-size: 3.5em; font-weight: bold; color: #1e3a8a; margin-bottom: 0.3em;">Omniflow</h1>
 
-<h2 style="font-size: 1.8em; color: #e8e8e8; font-weight: 300; margin-bottom: 1.5em;">Indonesia's Next AI-Native ERP</h2>
+<h2 style="font-size: 1.8em; color: #2563eb; font-weight: 600; margin-bottom: 1.5em;">Indonesia's Next AI-Native ERP</h2>
 
-<p style="font-size: 1.2em; color: #b8b8b8; margin-bottom: 2em;">
+<p style="font-size: 1.2em; color: #64748b; margin-bottom: 2em;">
 Transforming Business Operations with Intelligent Automation
 </p>
 

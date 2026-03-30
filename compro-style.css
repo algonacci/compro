@@ -1,29 +1,45 @@
-/* Modern sans-serif fonts for corporate look */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* Plus Jakarta Sans font for corporate look */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
-/* Blue color palette */
+/* Tailwind Blue Palette (matching Omniflow-id) */
 :root {
-    --primary-blue: #0066cc;
-    --dark-blue: #003d7a;
-    --light-blue: #4da6ff;
-    --accent-blue: #00a3ff;
-    --bg-blue: #f0f7ff;
-    --text-dark: #1a1a2e;
-    --text-light: #666666;
+    --primary-blue: #2563eb;      /* blue-600 */
+    --dark-blue: #1e3a8a;         /* blue-900 */
+    --light-blue: #60a5fa;        /* blue-400 */
+    --accent-blue: #4338ca;       /* indigo-700 */
+    --bg-blue: #eff6ff;           /* blue-50 */
+    --text-dark: #1e293b;         /* slate-800 */
+    --text-light: #64748b;        /* slate-500 */
+    --blue-700: #1d4ed8;
 }
 
 /* Override default theme colors with !important */
 .reveal {
     background-color: white !important;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
     line-height: 1.6 !important;
     letter-spacing: -0.01em !important;
     color: var(--text-dark) !important;
 }
 
+/* All slides white background */
+.reveal .slide-background {
+    background-color: white !important;
+}
+
+/* Hero slide gradient background */
+.reveal section.gradient-hero {
+    background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #e0f2fe 100%) !important;
+}
+
+/* Fix for slide background to cover full slide */
+.reveal .slide-background.gradient-hero {
+    background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #e0f2fe 100%) !important;
+}
+
 /* Headings - FORCE blue color */
 .reveal h1 {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
     font-weight: 800 !important;
     font-size: 2.8em !important;
     line-height: 1.2 !important;
@@ -32,7 +48,7 @@
 }
 
 .reveal h2 {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
     font-weight: 700 !important;
     font-size: 2em !important;
     line-height: 1.2 !important;
@@ -41,7 +57,7 @@
 }
 
 .reveal h3 {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
     font-weight: 600 !important;
     color: var(--primary-blue) !important;
 }
@@ -49,7 +65,7 @@
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
     font-weight: 600 !important;
     color: var(--dark-blue) !important;
 }
@@ -113,11 +129,11 @@
     border-collapse: collapse !important;
     border-radius: 8px !important;
     overflow: hidden !important;
-    box-shadow: 0 2px 8px rgba(0, 102, 204, 0.1) !important;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1) !important;
 }
 
 .reveal table th {
-    background: var(--primary-blue) !important;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
     color: white !important;
     font-weight: 600 !important;
     padding: 12px 16px !important;
@@ -125,7 +141,7 @@
 
 .reveal table td {
     padding: 10px 16px !important;
-    border-bottom: 1px solid #e8e8e8 !important;
+    border-bottom: 1px solid #e2e8f0 !important;
 }
 
 .reveal table tr:hover {
@@ -153,51 +169,62 @@
     border-left-color: var(--accent-blue) !important;
 }
 
-/* Buttons/CTAs */
+/* Buttons/CTAs - Tailwind gradient style */
 .cta-button {
     display: inline-block !important;
-    background: var(--primary-blue) !important;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
     color: white !important;
     padding: 12px 32px !important;
-    border-radius: 6px !important;
+    border-radius: 12px !important;
     font-weight: 600 !important;
     transition: all 0.3s ease !important;
     text-decoration: none !important;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4) !important;
 }
 
 .cta-button:hover {
-    background: var(--dark-blue) !important;
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e3a8a 100%) !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 6px 20px rgba(0, 102, 204, 0.3) !important;
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5) !important;
 }
 
 /* Cards */
 .card {
     background: white !important;
-    border-radius: 12px !important;
+    border-radius: 16px !important;
     padding: 24px !important;
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1) !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1) !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    border: 1px solid #e2e8f0 !important;
 }
 
 .card:hover {
     transform: translateY(-4px) !important;
-    box-shadow: 0 8px 24px rgba(0, 102, 204, 0.2) !important;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.15) !important;
+    border-color: #bfdbfe !important;
 }
 
-/* Logo on dark backgrounds */
-.reveal.has-dark-background .slide-logo {
-    content: url('logo-white.png') !important;
+/* Logo - always default, no dark background variant */
+.reveal .slide-logo {
+    opacity: 1 !important;
 }
 
-/* Custom gradient backgrounds */
+/* Custom gradient backgrounds - Light theme only */
 .gradient-blue {
-    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%) !important;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+}
+
+.gradient-blue-light {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
+}
+
+.section-hero {
+    background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #e0f2fe 100%) !important;
 }
 
 /* Progress bar */
 .reveal .progress {
-    background: rgba(0, 102, 204, 0.1) !important;
+    background: rgba(37, 99, 235, 0.1) !important;
 }
 
 .reveal .progress span {
@@ -209,7 +236,8 @@
     background: transparent !important;
     color: var(--text-light) !important;
     font-weight: 400 !important;
-    font-size: 0.9em !important;
+    font-size: 0.6em !important;
+    opacity: 0.6 !important;
 }
 
 /* Controls (navigation arrows) */
