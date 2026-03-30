@@ -1,0 +1,8 @@
+<script>
+// Auto-skip to first real slide (skip title slide)
+window.addEventListener('load', function() {
+    if (window.location.hash === '' || window.location.hash === '#/') {
+        window.location.hash = '#/1';
+    }
+});
+</script>

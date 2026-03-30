@@ -1,0 +1,18 @@
+<script>
+window.addEventListener('load', function() {
+    const logo = document.querySelector('.slide-logo');
+    if (!logo) return;
+
+    function updateLogo() {
+        const current = document.querySelector('.reveal .slides section.present');
+        if (current && current.classList.contains('hide-logo')) {
+            logo.style.display = 'none';
+        } else {
+            logo.style.display = 'block';
+        }
+    }
+
+    updateLogo();
+    document.querySelector('.reveal').addEventListener('slidechanged', updateLogo);
+});
+</script>
