@@ -1,0 +1,36 @@
+---
+format:
+    revealjs:
+        theme: simple
+        css: compro-style.css
+        slide-number: c/t
+        include-after-body: hide-logo.html
+        chalkboard:
+            buttons: true
+            theme: whiteboard
+        transition: slide
+        background-transition: fade
+        code-copy: true
+        code-fold: true
+        code-overflow: wrap
+        smaller: false
+        incremental: false
+        preview-links: auto
+        logo: "logo.png"
+        footer: ""
+        margin: 0.1
+        fig-responsive: true
+        highlight-style: github
+        html-math-method: katex
+---
+
+# {#hero-slide .gradient-hero .smaller .hide-logo}
+
+<div style="text-align: center; margin-top: -10vh;">
+
+![](logo.png){width=600 style="margin-bottom: 20px; object-fit: cover; object-position: center; max-height: 200px;"}
+
+<h2 style="font-size: 1.8em; color: #2563eb; font-weight: 600; margin: 0;">Indonesia's Next AI-Native ERP</h2>
+
+
+</div>
